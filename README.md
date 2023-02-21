@@ -17,4 +17,6 @@ I have this rough plan for now of how to od it which goes something like this
 
 7:Use flexbox and wrap to align the grid parts properly in the container. ✅
 
-8:Determine the color scheme for the grid parts, but it's currently unclear how to implement this.
+8 : Added the options tap to the right of the grid which have the coloring modes a ersaer and a clearing button with a slider and a color input 
+
+9 : change the color of the grids on click and the grid size with the slider insted of the prompt;
