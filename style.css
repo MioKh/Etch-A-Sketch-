@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(177, 177, 177);
+}
+
+.containor{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    height: 80%;
+    width: 500px;
+    background-color: white;
+}
+.test{
+    width: 10%;
+    height: 20px;
+    background-color: aqua;
+    border: 1px black solid;
+}
+.grid{
+    width: 450px;
+    height: 90%;   
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+main{
+height: 80%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
