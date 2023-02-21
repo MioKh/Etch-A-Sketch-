@@ -40,4 +40,60 @@ width: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
+gap: 25px;
 }
+
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.main-heading{
+    color: rgb(47, 47, 48);
+    font-size: 2.5rem;
+}
+.button{
+    background-color: #b1b1b1;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(43, 41, 41);
+    font-size: large;
+    
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 10px;
+    background: #ccc;
+    outline: none;
+    border-radius: 5px;
+  }
+
+  .slider-value {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .color {
+    border: none;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    padding: 0;
+    background: #ffffff; /* set an initial background color */
+  }
+  
+  .color::-webkit-color-swatch-wrapper {
+    padding: 0;
+  }
+  
+  .color::-webkit-color-swatch {
+    border: none;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+  }
