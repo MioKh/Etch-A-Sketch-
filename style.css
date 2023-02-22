@@ -13,14 +13,6 @@ body{
     background-color: rgb(177, 177, 177);
 }
 
-.containor{
-    display: flex;
-    flex-wrap: wrap;
-    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
-    height: 80%;
-    width: 500px;
-    background-color: white;
-}
 .test{
     width: 10%;
     height: 20px;
@@ -28,11 +20,13 @@ body{
     border: 1px black solid;
 }
 .grid{
-    width: 450px;
-    height: 90%;   
+    width: 650px;
+    height: 650px;   
     background-color: white;
     display: flex;
     flex-wrap: wrap;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    
 }
 main{
 height: 80%;
