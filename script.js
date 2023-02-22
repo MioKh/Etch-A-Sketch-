@@ -1,9 +1,11 @@
-let i = prompt("grid size");
-let gridSize = i * i;
-let widthPercentage = 100 / i;
-console.log(widthPercentage);
+const rangeInput = document.querySelector('.slider');
+rangeInput.addEventListener('input' , updateGrid)
 
-const gridContainor = document.querySelector(".grid");
+function updateGrid(){
+  let gridSize = rangeInput.value * rangeInput.value;
+let widthPercentage = 100 / rangeInput.value;
+
+gridContainor.innerHTML = "";
 
 // Generate the grid divs and add them to the grid container
 for (let j = 0; j < gridSize; j++) {
@@ -13,9 +15,12 @@ for (let j = 0; j < gridSize; j++) {
   gridDiv.style.height = `${widthPercentage}%`;
   gridContainor.appendChild(gridDiv);
 }
+}
+
+const gridContainor = document.querySelector(".grid");
+
 
 // change the numbers under the slider
-const rangeInput = document.querySelector('.slider');
 const rangeValue = document.querySelector('.slider-value');
 
 rangeValue.textContent = `${rangeInput.value} x ${rangeInput.value}`;
